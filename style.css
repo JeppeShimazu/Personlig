@@ -1,0 +1,79 @@
+body {
+height: 100vh;
+display: grid;
+grid-template-rows: auto 1fr auto;
+background-color:black;
+
+}
+
+header,
+footer {
+color: lightgreen;
+gap:10px;
+}
+
+h1{
+text-align: center;
+
+}
+
+footer{
+text-align: center;
+background-color: rgb(23, 23, 23)
+
+}
+
+nav {
+text-align: center;
+font-size: 25px;
+}
+
+a{
+text-decoration: none;
+color: green;
+
+}
+
+a:hover {
+color: white;
+text-decoration: underline;
+}
+
+.länkar {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: rgb(23, 23, 23)
+}
+
+.bilderindex {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.bilderindex img {
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    }
+
+.linkcolor1 {
+color:white;
+}
+
+.linkcolor2 {
+color: white;
+
+}
+
+.information{
+
+    display:grid;
+    grid-template-columns: 3fr;
+}
+
+h4{
+color:green;
+text-align: left;
+
+}
